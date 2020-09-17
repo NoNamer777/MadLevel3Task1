@@ -8,7 +8,11 @@
         android:id="@+id/startFragment"
         android:name="com.nonamer777.madlevel3task1.StartFragment"
         android:label="fragment_start"
-        tools:layout="@layout/fragment_start" />
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_ratingFragment"
+            app:destination="@id/ratingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/ratingFragment"
         android:name="com.nonamer777.madlevel3task1.RatingFragment"
