@@ -8,4 +8,7 @@
     <string name="btn_nav_summary">to summary</string>
     <string name="txt_instructions">Rate the following game:</string>
     <string name="txt_game_title" />
+
+    <string name="btn_start_over_label">start over</string>
+    <string name="txt_rating_result" />
 </resources>
